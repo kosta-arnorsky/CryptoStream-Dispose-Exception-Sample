@@ -53,7 +53,7 @@ namespace CryptoStreamDisposeException
 
                     if (interruptDecryption)
                     {
-                        throw new TestException("Something have happend.");
+                        throw new TestException("Something bad has happend.");
                     }
 
                     readed = cryptoStream.Read(buffer, 0, buffer.Length);
