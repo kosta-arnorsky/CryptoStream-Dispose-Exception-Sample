@@ -25,7 +25,7 @@ namespace CryptoStreamDisposeException
                 {
                     decryptedText = example.Decrypt(encryptedData, true);
                 }
-                catch (TestException ex)
+                catch (TestException)
                 {
                     Console.WriteLine("Decription has been interrupted, diposing has been sucessfully perfomed.");
                 }
